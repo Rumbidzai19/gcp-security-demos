@@ -58,16 +58,6 @@ gcp-security-demos/
     └── basic-waf-setup.md
 ```
 
----
-
-## 🧭 Next Steps
-
-- [ ] Add screenshots of IAM permissions and policy testing
-- [ ] Record and graph log-based alert metrics
-- [ ] Map WAF and IAM scenarios to **MITRE ATT&CK Cloud Matrix**
-
----
-
 ## 👩🏽‍💻 Author
 
 **Rumbidzai**  
