@@ -1,51 +1,50 @@
-# gcp-security-demos
-Mini projects using Google Cloud IAM, VPC, firewall rules, and security tools
-# GCP Security Demos
+# ☁️ GCP Security Demos
 
-This repository contains mini-projects and configurations exploring **security in Google Cloud Platform (GCP)**—including IAM, firewall rules, VPC segmentation, and basic threat prevention techniques.
+This repository contains mini-projects and configurations exploring **security in Google Cloud Platform (GCP)**—covering IAM, firewall rules, VPC segmentation, logging, and threat prevention techniques.
 
 ---
 
-### Learning Goals
+## 🎯 Learning Objectives
 
-- Understand and apply GCP Identity and Access Management (IAM)
-- Configure secure Virtual Private Cloud (VPC) networks
-- Set up firewall rules to control traffic flow
-- Use Cloud Logging and Monitoring to track activity
-- Test basic incident detection and prevention scenarios
+- ✅ Understand and apply GCP Identity and Access Management (IAM)
+- ✅ Configure secure Virtual Private Cloud (VPC) networks
+- ✅ Create and manage firewall rules for traffic control
+- ✅ Use Cloud Logging and Monitoring to track activity
+- ✅ Simulate basic incident detection and prevention scenarios
 
 ---
 
-###  Tools & Services Used
+## 🧰 Tools & Services Used
 
 - **Google Cloud Console / Cloud Shell**
 - **IAM Roles & Service Accounts**
 - **Cloud Logging & Monitoring**
-- **VPCs, Subnets, and Firewalls**
-- **Cloud Armor (Web App Firewall)**
+- **VPCs, Subnets, and Firewall Rules**
+- **Cloud Armor (Web Application Firewall)**
 
 ---
 
-###  Example Projects
+## 🔬 Example Projects
 
-####  IAM Role Testing
-- Created custom roles with least privilege
-- Tested access boundaries using service accounts
+### 🔐 IAM Role Testing
+- Created custom roles with **least privilege**
+- Tested access boundaries using **service accounts**
 
-####  VPC Firewall Demo
-- Built secure network with multiple subnets
-- Created deny-all by default, then allow explicit ports
+### 🌐 VPC Firewall Demo
+- Built secure network with **multiple subnets**
+- Applied **default-deny** strategy, allowing only specific ports
 
-####  Log Monitoring Lab
-- Enabled Cloud Audit Logs
-- Simulated user activity and visualized alerts in Cloud Logging
+### 📊 Log Monitoring Lab
+- Enabled **Cloud Audit Logs**
+- Simulated user activity and visualized alerts using **Cloud Logging**
 
-####  Cloud Armor (Basic Rules)
-- Set up basic WAF rules to protect a test web app
+### 🛡️ Cloud Armor Demo
+- Configured **basic WAF rules** to protect a test web app
+- Demonstrated IP filtering and rate-based rules
 
 ---
 
-###  Repo Structure
+## 📁 Repository Structure
 
 ```plaintext
 gcp-security-demos/
@@ -61,19 +60,20 @@ gcp-security-demos/
 
 ---
 
-###  Next Steps
+## 🧭 Next Steps
 
-- [ ] Add screenshots of IAM role permissions
-- [ ] Record metrics for log-based alerts
-- [ ] Map rules to MITRE ATT&CK Cloud Matrix
-
----
-
-###  Author
-
-**Rumbidzai **  
-Google Cybersecurity Certified | Cloud Security Enthusiast 
+- [ ] Add screenshots of IAM permissions and policy testing
+- [ ] Record and graph log-based alert metrics
+- [ ] Map WAF and IAM scenarios to **MITRE ATT&CK Cloud Matrix**
 
 ---
 
-> “The cloud is just someone else's computer—lock it down like it's yours.”
+## 👩🏽‍💻 Author
+
+**Rumbidzai**  
+*Google Cybersecurity Certified | Cloud Security Enthusiast*  
+🔗 [GitHub Profile](https://github.com/Rumbidzai19)
+
+---
+
+> 🗝️ *“The cloud is just someone else's computer — lock it down like it's yours.”*
